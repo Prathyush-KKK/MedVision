@@ -1,0 +1,11 @@
+.bodyFrame{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 3px 2px #F2B5D4;
+     -webkit-box-shadow: 1px 1px 2px 1px #F2B5D4;
+     -moz-box-shadow:1px 1px 1px 1px #F2B5D4; 
+}
+
+.hide{
+    display: none;
+}

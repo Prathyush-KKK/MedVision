@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    background: #F7D6E0;
+    color: #52566B;
+    font-family: Helvetica;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.navbar__title {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    margin-left: -20%;
+    max-width: fit-content;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
