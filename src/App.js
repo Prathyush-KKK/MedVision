@@ -1,7 +1,9 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import BodyFrame from "./components/BodyFrame/BodyFrame";
+import GoogleFetcher from "./components/GoogleEmbed/GoogleEmbed";
 import { useEffect } from "react";
+
 
 function Example() {
   useEffect(() => {
@@ -20,6 +22,7 @@ function App() {
       <Navbar />
       <BodyFrame />
       <Example />
+      <GoogleFetcher />
     </div>
   );
 }

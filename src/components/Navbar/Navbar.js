@@ -3,6 +3,8 @@ import Title from './Title.png';
 import Discord from './Discord.svg';
 
 function Navbar() {
+    
+
     return(
         <>
         <header className='navbar'>
